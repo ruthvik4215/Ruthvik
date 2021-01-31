@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+.home {
+    background-color: #4285F4;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 7px;
+    transition-duration: 0.4s;
+}
+
+.home:hover {
+    background-color: #4285F4;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 7px;   
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 7px;
+    transition-duration: 0.4s;
+    border: 2px solid #eee;
+}
+.contact:hover, .contact:after, .contact:focus {
+    border-radius: 6px;
+    background-color: #E1F5FE;
+    color: #4285F4;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+}
+
+.about-container {
+    margin-top: 15px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 430px) {
+    .about-container {
+        width: 400px;
+    }
+}
+
+.about-intro {
+    text-align: center;
+    color: #1DA1F2;
+}
+
+.about-name {
+    text-align: center;
+    color: #949494;
+}
+
+.about-content {
+    color: black;
+}
+
+.about-container-intro-content {
+    margin: 0px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    border-bottom: 4px solid #1DA1F2;
+}
+
+.about-container-images {
+    display: none;
+}
+
+.about-edu {
+    margin-top: 15px;
+}
+
+.about-edu-name {
+    text-align: center;
+}
+
+.about-edu-duration {
+    opacity: 0.6;
+}
+
+button {
+    width: 110px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.1s;
+}
+
+.about-edu-school {
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    border-bottom: 4px solid #1AA260;
+}
+
+.about-edu-he {
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    border-bottom: 4px solid red;
+}
+
+.about-edu-bt {
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    border-bottom: 4px solid yellow;
+}
+
+.about-edu-school-button::after {
+    outline: none;
+    border: none;
+}
+
+.contact2 {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.20), 0 5px 30px 0 rgba(0,0,0,0.20);
+    border-bottom: 4px solid black;
+}
+
+.contact2-input-name {
+    border: none;
+    padding: 5px;
+    border-top: 3px solid black;
+    margin: 5px;
+    color: black;
+    width: 200px;
+    outline: none;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.contact2-input-name::after {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: none;
+    border-top: none;
+}
+
+.contact2-input-email {
+    border: none;
+    padding: 5px;
+    border-bottom: 3px solid black;
+    margin: 5px;
+    color: black;
+    width: 200px;
+    outline: none;
+    border-right: 3px solid black;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.contact2-input-email::after {
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+
+input.contact2-input-message, .contact-input-message:focus {
+    max-width: 300px;
+    height: 100px;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+    outline: none;
+    margin-left: 6px;
+}
+
+.contact2-name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact2-details-ids {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.contact2-send {
+    margin-top: 5px;
+    margin-left: 5px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.social-media {
+    margin:0; 
+    padding: 40px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#iconf {
+    font-size: 25px;
+    padding: 5px;
+    color: #4267B2;
+}
+
+#iconi {
+    font-size: 25px;
+    padding: 5px;
+    color: #DD2A7B;
+}
+
+#icont {
+    font-size: 25px;
+    padding: 5px;
+    color: #1DA1F2;
+}
+
+#iconl {
+    font-size: 25px;
+    padding: 5px;
+    color: #0E76A8;
+}
+
+#icons {
+    font-size: 25px;
+    padding: 5px;
+    color: yellow;
+}
+
+#iconp {
+    font-size: 25px;
+    padding: 5px;
+    color: red;
+}
+
+.year-2018 {
+    margin-left: 7px;
+    color: white;
+    background-color: green;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.year-2019 {
+    margin-left: 7px;
+    color: white;
+    background-color: red;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 3px;   
+}
+
+.year-2020 {
+    margin-left: 7px;
+    color: black;
+    background-color: yellow;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+footer {
+    margin-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+#name {
+    text-decoration: none;
+    transition-duration: 0.1s; 
+}
+
+#name:hover {
+    border-bottom: 2px solid #1DA1F2;
+    color: black;
+}
+
+.show-info:hover, .show-info:focus, .show-info::after {
+    border: 2px solid #1DA1F2;
+    background-color: white;
+    color: #1DA1F2;
+    outline: none;
+    opacity: 0.42837;
+}
+
+.about-edu-school-button:hover, .about-edu-school-button:focus, .about-edu-school-button::after {
+    border: 2px solid #1AA260;
+    background-color: white;
+    color: #1AA260;
+    outline: none;
+    opacity: 0.42837;
+}
+
+.about-edu-bt-button:hover, .about-edu-bt-button:focus, .about-edu-bt-button::after  {
+    border: 2px solid yellow;
+    background-color: white;
+    color: black;
+    opacity: 0.42837;
+}
+
+.about-edu-he-button:hover, .about-edu-he-button:focus, .about-edu-he-button::after {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    opacity: 0.42837;
+}
+
+.contact2-send:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.contact2-send:focus {
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+.contact2-send::after {
+    outline: none;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: 5px;
+    width: 300px;
+    height: 100px;
+}
+
+.mesaage {
+    margin-left: 7px;
+}
