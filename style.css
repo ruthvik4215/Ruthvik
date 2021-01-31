@@ -325,6 +325,7 @@ footer {
     border: 2px solid yellow;
     background-color: white;
     color: black;
+    outline: none;
     opacity: 0.42837;
 }
 
@@ -332,6 +333,7 @@ footer {
     border: 2px solid red;
     background-color: white;
     color: red;
+    outline: none;
     opacity: 0.42837;
 }
 
