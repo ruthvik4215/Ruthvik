@@ -4,6 +4,11 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .nav {
     background-color: white;
     color: black;
