@@ -1,11 +1,12 @@
+// google maps link to collage.
 function link2collage2() {
 	location.replace("https://www.avanthi.edu.in/");
 }
-
+// google maps link to school.
 function link2school() {
 	location.replace("https://maps.app.goo.gl/Wsxa6w22BgEX2DkK6")
 }
-
+// google maps link to collage.
 function link2collage() {
 	location.replace("https://maps.app.goo.gl/8Qwfr3knHf7wjX156")
 }
